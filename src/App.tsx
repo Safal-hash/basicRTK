@@ -10,6 +10,9 @@ function App() {
 
   return (
     <>
+    <p className='text-2xl font-semibold'>
+      Basic Redux <span className='text-red-400'>ToDo </span>App.
+    </p>
     <AddTodo/>
     <Todos/>
     </>
